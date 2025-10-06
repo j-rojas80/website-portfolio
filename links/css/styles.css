@@ -1,0 +1,50 @@
+body {
+    background-color: cadetblue;
+}
+nav, h1{
+    text-align: center;
+}
+
+h2 {
+    margin-top: 100px;
+}
+
+
+nav a{
+    font-size: larger;
+    color: cadetblue;
+    padding: 10px 20px;
+    background-color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: 2px solid aliceblue;
+}
+
+nav a:hover{
+    color: aliceblue;
+    background: cadetblue;
+}
+
+a{
+    color: aliceblue;
+    font-size: large;
+
+}
+
+.up{
+    font-size:small;
+    color: cadetblue;
+    padding: 5px 10px;
+    background-color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid aliceblue;
+}
+
+.up:hover{
+    color: aliceblue;
+    background: cadetblue;
+}

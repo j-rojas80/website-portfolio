@@ -1,0 +1,285 @@
+:root {
+    --dark-primary-color: #388E3c;
+    --light-primary-color:#C8E6C9;
+    --primary-color:#4CAF50;
+    --accent-color: #448AFF;
+    --primary-text:#212121;
+    --divider-color:#BDBDBD;
+    --text-font: "IM Fell Great Primer SC";
+    
+
+}
+
+p{
+    font-family: var(--text-font);
+}
+
+footer{
+    background-color:var(--light-primary-color);
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin:15px auto;  
+    
+}
+
+.end{
+    color: black;
+    font-family: "Cinzel", serif;
+}
+
+
+body {
+    background-color:var(--dark-primary-color);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 100px auto;
+    padding: 0;
+}
+
+.container{
+    width: 90%;
+    margin: 15px auto;
+    padding:25px;
+    background-color:var(--light-primary-color);}
+
+.reptiles{
+    width: 90%;
+    margin: 15px auto;
+    padding:25px;
+    background-color:var(--light-primary-color);}
+
+.aquatics{
+    width: 90%;
+    margin: 15px auto;
+    padding:25px;
+    background-color:var(--light-primary-color);    
+}
+
+.birds{
+    width: 90%;
+    margin: 15px auto;
+    padding:25px;
+    background-color:var(--light-primary-color);}
+ 
+img {
+    max-width: 100%;
+    height: auto;
+    float: none;
+}
+
+h1, 
+h2 {
+    text-align: center;
+    color: var(--primary-text);
+    font-family: "Cinzel", serif;
+   
+}   
+
+nav {
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: var(--accent-color);
+    color: lightgray;
+   
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav a {   
+    margin-left: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-size: larger;
+    border-radius: 25px;
+    border: 3px solid lightgray;
+    padding: 7px;
+    background-color: lightgray;
+    color: darkslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+[class*="col-"] {
+    padding: 15px;
+    margin: 10px  auto;
+    width: 70%;
+    text-align: center;
+    
+}
+.mammals{
+    width: auto;
+    height: 100%;
+}
+
+
+@media only screen and (min-width: 800px) {
+
+    [class*="col-"] {
+        float: left;
+        width: 100%;
+        
+    }
+    #right {
+        float: right;
+        width: 100%;
+    }
+
+    #text{
+        margin-top: 70px;
+        font-family: var(--text-font);
+    }
+     
+    .big{
+        width: auto;
+        height: 200px;
+    }
+    
+    #img{
+      margin-top: 75px;
+    }
+
+    .mammals{
+        width: auto;
+        height: 170px;
+    }
+
+    .container{
+    width: 90%;
+    height: 1320px;
+    margin: 15px auto;
+    background-color:var(--light-primary-color);    }
+    .reptiles{
+    width: 90%;
+    height: 1220px;
+    margin: 15px auto;
+    background-color:var(--light-primary-color);    }
+
+    .birds{
+    width: 90%;
+    margin: 15px auto;
+    height:1500px;
+    background-color:var(--light-primary-color);    }
+
+    .aquatics{
+        width: 90%;
+        height: 1600px;
+        margin: 15px auto;
+        background-color:var(--light-primary-color);        }
+   
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+        
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 1100px) {
+    #img{
+        margin-top: 25px;
+    }
+
+     
+    .big{
+        width: auto;
+        height: 300px;
+    }
+
+
+    .mammals{
+        width: auto;
+        height: 250px;
+    }
+    
+    .container{
+    width: 90%;
+    height: 1250px;
+    margin: 15px auto;
+    background-color:var(--light-primary-color);    }
+
+    .reptiles{
+    width: 90%;
+    height: 1300px;
+    margin: 15px auto;
+    background-color:var(--light-primary-color);
+}
+
+    .birds{
+    width: 90%;
+    height: 1285px;
+    margin: 15px auto;
+    background-color:var(--light-primary-color);
+    }
+
+    
+    
+}
+
+@media only screen and (min-width: 1350px) {
+    .aquatics{
+        width: 90%;
+        height: 1700px;
+        margin: 15px auto;
+        background-color:var(--light-primary-color);
+    }
+
+}
+
+@media only screen and (min-width: 1500px) {
+    .aquatics{
+        width: 90%;
+        height: 2000px;
+        margin: 15px auto;
+        background-color:var(--light-primary-color);
+       }
+
+}

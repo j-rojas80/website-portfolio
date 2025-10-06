@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(53, 53, 53)
+}
+
+h1 {
+    text-align: center;
+    color: antiquewhite;
+
+}
+
+h2 {
+    text-align: left;
+    color: red;
+    padding-left: 50px;
+    
+    
+}
+
+p {
+    text-align: left;
+    color: crimson;
+   padding-left: 50px;
+   
+}
+
+ol {
+    list-style-position: inside;
+    color: antiquewhite;
+    padding-left: 150px;
+    list-style-type: georgian;
+}
+
+ol ol {
+    list-style-position: inside ;
+    padding-left: 50px;
+}
+
+
+li {
+    text-align: left;
+    color: antiquewhite;
+   
+}
+
+ul {
+    list-style-position: inside;
+    color: antiquewhite;
+    padding-left: 150px;
+    list-style-type: square;
+}
+
+ul ul {
+    list-style-position: inside;
+    color: antiquewhite;
+    padding-left: 50px;
+    list-style-type:square
+}
+
+dt {
+    color: crimson;
+    padding-left: 50px;
+    
+}
+
+dd {
+    color:aquamarine;
+    padding-left: 50px;
+}

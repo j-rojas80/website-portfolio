@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a Template</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=IM+Fell+Great+Primer+SC&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Grid Layout - Using JavaScript</h1>
+        </header>
+        <main>
+            <div class="grid-container">
+                <div><img src="images/autumn.jpg" alt="Autumn trees and a path" onclick="change01()"></div>
+                <div><img src="images/lake.jpg" alt="Lake with mountains and tress in the back" onclick="change02()"></div>
+                <div><img src="images/nyc.jpg" alt="New York City at night" onclick="change03()"></div>
+                <div><img src="images/puppies.jpg" alt="3 puppies" onclick="change04()"></div>
+                <div><img src="images/sunset.jpg" alt="Sunset at beach" onclick="change05()"></div>
+            </div>
+            <div class="main-image">
+                <img src="images/autumn.jpg" alt="" id="large">
+            </div>
+            <script src="change.js"></script>
+        </main>
+        <footer>
+            <p class="end">&copy; Josy Rojas 2024</p>
+        </footer>
+    </div>
+</body>
+</html>

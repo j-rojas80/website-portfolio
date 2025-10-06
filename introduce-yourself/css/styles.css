@@ -1,0 +1,165 @@
+p {
+    text-wrap:balance;
+    text-align: center;
+    color: lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    border-color: lightgray;
+    border-style: solid;
+    width: 50%;
+    margin-left: 50px;
+    float: none;
+    margin-top:-35%;
+
+}
+
+.right {
+    border-color: lightgray;
+    border-style: solid;
+    width: 50%;
+    float: right;
+    margin-right: 50px;
+}
+
+h1, 
+h2 {
+    text-align: center;
+    color: lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h3{
+    color: lightgray;
+    padding-left: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+nav a {   
+    margin-left: 50px;
+    text-decoration: none;
+    text-align: center;
+    font-size: larger;
+    border-radius: 25px;
+    border: 3px solid lightgray;
+    padding: 7px;
+    background-color: lightgray;
+    color: darkslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+nav {
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: darkslategray;
+    color: lightgray;
+   
+}
+
+
+.book1 {
+    float: left;
+    width: 15%;
+    margin-left: 125px;
+    border: 3px solid lightgray;
+    color:lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.book2 {
+    float: left;
+    width: 15%;
+    margin-left: 20px;
+    margin-top:150px;
+    border: 3px solid lightgray;
+    color:lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.book3 {
+    margin-right: 170px;
+    width: 15%;
+    float:none;
+    margin-left: -31.5%;
+    margin-top: 420px;
+    border: 3px solid lightgray;
+    color:lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body { 
+    background-color: rgb(5, 6, 7);
+}
+
+li {
+    color: lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: square;
+
+}
+
+.tv-container {
+    border-color: lightgray;
+    border-style: solid;
+    width: 25%;
+    margin-left: 50%;
+    margin-top: 5%;
+    float: right;
+    margin-right: 17%;
+    padding: 5px;
+
+
+}
+
+.manifest {
+    width: 20%;
+    float:top;
+    margin-left: 19%;
+    border: 3px solid lightgray;
+    margin-top: -20%;
+    margin-bottom: 2%;
+    color:lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.show-container{
+    border-color: lightgray;
+    border-style: solid;
+    width: 25%;
+    margin-left: 17%;
+    margin-top: 10%;
+    padding: 5px;
+
+}
+
+.b99 {
+    width: 20%;
+    float: right;
+    margin-right: 19%;
+    margin-top: 2%;
+    border: 3px solid lightgray;
+    color:lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.willy {
+    width: 25%;
+    float: top;
+    margin-top: 1%;
+    margin-left: 60%;
+    color:lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 3px solid lightgray;
+
+}
