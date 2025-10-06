@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Forms</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<header>
+    <h1>Getting To Know You</h1>
+</header>
+<body>
+    <form>
+        <div class="container">
+            <h3>First and Last Name</h3>
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" autofocus 
+            placeholder="John" required><br>
+            <br>
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" 
+            placeholder="Smith" required>
+            <br>
+        </div>
+        <div class="container">
+            <h3>What Types of Pets Do you have?</h3>
+            <input type="checkbox" name="pets" id="dog" value="dog">
+            <label for="dog">Dog</label><br>
+            <input type="checkbox" name="pets" id="cat" value="cat">
+            <label for="cat">Cat</label><br>
+            <input type="checkbox" name="pets" id="fish" value="fish">
+            <label for="fish">Fish</label><br>
+            <input type="checkbox" name="pets" id="bird" value="bird">
+            <label for="bird">Bird</label><br>
+            <input type="checkbox" name="pets" id="reptile" value="reptile">
+            <label for="reptile">Reptile</label><br>
+            <input type="checkbox" name="pets" id="other" value="other">
+            <label for="other">Other</label>
+            <br>
+        </div>
+        <div class="container">
+            <h3>How Many Siblings Do you Have?</h3>
+            <input type="radio" id="zero" name="siblings" value="zero">
+            <label for="zero">0</label><br>
+            <input type="radio" id="one" name="siblings" value="one">
+            <label for="one">1</label><br>
+            <input type="radio" id="two" name="siblings" value="two">
+            <label for="two">2</label><br>
+            <input type="radio" id="three" name="siblings" value="three">
+            <label for="three">3</label><br>
+            <input type="radio" id="four" name="siblings" value="four">
+            <label for="four">4</label><br>
+            <input type="radio" id="five-plus" name="siblings" value="five-plus">
+            <label for="five-plus">5+</label>
+            <br>
+        </div>
+        <div class="container">
+            <h3>What is Your Favorite Number?</h3>
+            <label for="quantity">My Favorite Number Between 1 and 100 is </label>
+            <input type="number" id="quantity" name="quantity" min="0" max="100" required>
+            <br>
+        </div>
+        <div class="container">
+            <h3>What is Your Favorite Color?</h3>
+            <input type="color" id="fav-color" name="fav-color" required>
+            <label for="fav-color">Select Your Favorite Color</label>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>

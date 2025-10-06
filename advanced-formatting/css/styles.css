@@ -1,0 +1,46 @@
+/* Radial Gradient*/
+body{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(20,20,112,1) 79%, rgba(0,212,255,1) 100%);
+    color: white;
+    text-align: center;
+}
+/* Text Shadow Effect that makes text glow */
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 35px rgb(0, 225, 255), 0 0 15px rgb(6, 213, 245);
+  }
+/* Text is in 5 Columns */
+/* Rounded two corners on the containers */
+/* Used hsl for color selection */
+.container{
+    border: 3px solid white;
+    column-count: 5;
+    column-gap: 10px;
+    color: rgb(2, 0, 36);
+    width: 80%;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: hsl(199, 81%, 84%);
+    text-align: left;
+    border-radius: 15px 50px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/* Stretched the same image and used it as the border*/
+img{
+    width: 80%;
+    margin: 15px auto;
+    border: 7px solid transparent;
+    padding: 7px;
+    border-image: url(../images/ocean-8408693_1280.jpg) 20 stretch;
+}
+
+footer{
+    background-color: hsl(199, 83%, 84%);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: rgba(2, 0, 36, 1);
+}

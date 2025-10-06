@@ -1,0 +1,62 @@
+body{
+    background: #c7ff93;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+img {
+    width: 65%;
+    display: block;
+    margin: 15px auto;
+    padding: 15px;
+    background:#aac9ff;
+    border: 5px solid #219020;
+    border-radius:100%;
+}
+
+h1, h2 {
+    color:#17b1df;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color:#007f55;
+    font-family:system-ui;
+}
+
+ul {
+    list-style-type:georgian;
+    color:#ff6c00;
+}
+
+ol {
+    list-style-type:square;
+    color:red;
+}
+
+dt {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#01772e;
+    font-weight:bold;
+}
+
+dd {
+    font-family:monospace;
+    color:#397405;
+    font-weight:bolder;
+}
+
+figcaption {
+    color:#0a6e6e;
+    font-family:fantasy;
+}
+
+dl {
+    font-weight:bolder;
+    color:#ff00d9;
+}
+

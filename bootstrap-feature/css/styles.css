@@ -1,0 +1,39 @@
+nav {
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: darkslategray;
+    color: lightgray;
+   
+}
+
+nav a {   
+    margin: 50px;
+    font-size: larger;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    border: 3px solid lightgray;
+    padding: 3px;
+    background-color: lightgray;
+    color: darkslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+    color: cadetblue;
+}
+
+h2{
+    color: cadetblue;
+}
+
+img{
+    margin-top: 30px;
+}
+
+#jumbo{
+    color: white;
+}

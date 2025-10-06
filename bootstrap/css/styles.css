@@ -1,0 +1,21 @@
+.container-fluid{
+    width: 95%;
+    margin:5px auto;
+
+}
+.container{
+    width: 100%;
+}
+
+img{
+    height: 600px;
+}
+
+.text-info, 
+.text-warning{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
