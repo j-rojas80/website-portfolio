@@ -1,0 +1,183 @@
+:root {
+    --dark-primary-color: #0288D1;
+    --light-primary-color:#B3E5FC;
+    --primary-color:#03A9F4;
+    --accent-color:#FFEB3B ;
+    --primary-text:#212121;
+    --divider-color:#BDBDBD;
+    --text-font:"Barlow";
+    --heading-font: "Rubik";
+}
+body{
+    background-color: var(--light-primary-color);
+}
+footer{
+    margin:20px auto;  
+    margin-top: 100px;
+}
+h1, h2, h3, h4{
+    font-family: var(--heading-font);
+}
+h3{
+    text-align: center;
+    
+}
+
+.end{
+    margin-top: 15px;
+    font-family: var(--heading-font);
+}
+.name{
+    font-family: var(--heading-font);
+    margin-top: -85px;
+    margin-left: 31%;
+}
+
+.destinations{
+    width: 300px;
+}
+.main-container{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.main-container-fluid{
+    margin-top: 50px;
+}
+
+.container{
+    background-color: white;
+    width:45%;
+    padding: 25px;
+}
+
+.form-text{
+    width:75%;
+    padding: 25px;
+    margin: 20px auto;
+    color: black;
+    font-size: large;
+}
+
+label{
+    font-family: var(--text-font);
+}
+
+.logo{
+    float: none;
+    height: 130px;
+    width: auto;
+    margin-left: 20%;
+}
+
+.nav-link.active{
+    background-color: var(--accent-color) !important;
+}
+
+.nav-link{
+    color: var(--primary-text) !important;
+}
+nav a:hover {
+    background-color: var(--accent-color);
+   
+}
+#left{
+    width: 23%;
+    margin-left: 2%;
+}
+
+#right{
+    width: 23%;
+    margin-right: 2%;
+}
+
+.col-6{
+    width: 50%;
+}
+@media only screen and (min-width: 1530px) {
+    #big{
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 1529px) {
+    #big{
+        width: 100%;
+        margin-top: 150px;
+    }
+}
+
+#paris-main{
+    text-align: center;
+    margin-top: 35px;
+}
+
+#tokyo-nav{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#paris-nav{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#rome-nav{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.container-fluid{
+    margin-top: 100px;
+    padding-left: 15px;
+}
+.small{
+    width: 300px;
+}
+
+#tokyo-images{
+    text-align: center;
+}
+
+#tokyo6{
+    width: 300px;
+    height: 200px;
+}
+
+#tokyo-text{
+    margin-top: 20px;
+}
+
+#paris-images{
+    text-align: center;
+}
+
+#paris-text{
+    margin-top: 20px;
+}
+
+#rome-text{
+    margin-top: 20px;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.carousel-control-prev{
+    margin-left: 15%;
+}
+.carousel-control-next{
+    margin-right: 15%;
+}
+
+p{
+    text-align: center;
+    font-family: var(--text-font);
+}
+
+li{
+    font-family: var(--text-font);
+}
+

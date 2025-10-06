@@ -1,0 +1,55 @@
+/* Global styling for the body element */
+body {
+        background-image: url("../images/aurora-borealis.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}
+
+div,
+header {
+    width: 80%;
+    margin: 20px auto;
+    border: 3px solid gold;
+    background: rgba(0, 0, 0, .7);
+    overflow: auto;
+    padding: 15px;
+    
+}
+
+div {
+    min-height: 250px;
+}
+
+/* Styling for h1 and h2 headings, controlling the text alignment and color */
+h1,
+h2 {
+    text-align: center;
+    color: white;
+}
+
+#background {
+    background-image: url("../images/tree.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;}
+
+
+#float-left img{
+        float: left;
+        color:gold;
+}
+
+#float-right img{
+        float: right;
+        color: gold;
+}
+
+
+
+#linked-image img{
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+}
+

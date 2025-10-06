@@ -1,0 +1,49 @@
+.container {
+    width: 80%;
+    margin: 20px auto;
+    border: 3px solid white;
+    overflow: auto;
+    padding: 15px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cadetblue;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    text-align: left;
+    padding-left: 60px;
+}
+
+
+nav {
+   text-align: center; 
+
+}
+
+nav a{
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid white;
+    color: cadetblue;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: white;
+    background-color: cadetblue;
+}

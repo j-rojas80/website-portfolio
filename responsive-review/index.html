@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Explorers Travel Agency</title>
+<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" href="favicon.ico">
+<meta name="description" content="Embark on unforgettable adventures with Adventure Explorers Travel Agency. Discover dream destinations, tailored vacation packages, and expert travel advice. From relaxing beach getaways to thrilling adventures, we'll make your travel dreams a reality. Start planning your next journey today!">
+<meta name="keywords" content="Travel agency, Vacation packages, Destination planning, Family vacations, Last-minute getaways, Budget-friendly travel, International travel, Customized vacations ">
+
+</head>
+<body>
+    <header>
+        <div class="main-container-fluid">
+            <img class="logo" src="images/travel-logo.png" alt="Plane Flying Around Globe">
+            <h1 class="name">Adventure Explorers Travel Agency</h1>
+        </div>
+        <div class="main-container">
+            <div class="row">
+                <div class="col-sm-3"><img class="destinations" src="images/paris-main.jpg" alt="Paris" onclick="change01()"></div>
+                <div class="col-sm-3"><img class="destinations" src="images/tokyo-main.jpg" alt="Tokyo" onclick="change02()"></div>
+                <div class="col-sm-3"><img class="destinations" src="images/rome-main.jpg" alt="Rome" onclick="change03()"></div>
+                <div class="col-sm-3"><img class="destinations" src="images/city.jpg" alt="City" onclick="change04()"></div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <nav>
+                    <ul class="nav nav-pills nav-justified">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="pages/paris.html">Paris</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="pages/tokyo.html">Tokyo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/rome.html">Rome</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="pages/contact.html">Contact</a>
+                          </li>
+                      </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <main>
+            <div class="main-container">
+            <div class="row">
+                <div class="col-3" id="left">
+                    <p>Welcome to Adventure Explorers Travel Agency, where your dream vacation is just a click away!
+                    We specialize in creating unforgettable travel experiences for families, couples, and adventurers
+                    of all ages. Planning your next getaway is as easy as pie with our user-friendly website and
+                    helpful travel experts.</p>
+                    <br>
+                    <p> Whether you're dreaming of relaxing on a sun-drenched beach, exploring
+                        ancient ruins, or embarking on a thrilling safari, we've got you covered.
+                        At Adventure Explorers, we understand that every traveler is unique. That's why we offer
+                        personalized itineraries tailored to your interests and budget.</p>
+                    <br>
+                    <p>Our team of experienced travel consultants is here to assist you every step of the way, from selecting
+                        the perfect destination to arranging accommodations and activities that suit your preferences. We take 
+                        the stress out of planning so you can focus on what matters most: making memories.</p>
+                </div>
+                <div class="col-6">
+                    <img id="big" src="images/paris-main.jpg" alt="">
+                    <script src="change.js"></script>
+                </div>
+                <div class="col-3" id="right">
+                    <p>Imagine snorkeling in crystal-clear waters, hiking through lush rainforests, or sampling delicious
+                        local cuisine in charming villages. With our carefully curated selection of destinations and
+                        activities, you'll have the opportunity to immerse yourself in new cultures and create stories
+                        you'll cherish for a lifetime.</p>
+                    <br>
+                    <p>Safety is our top priority at Adventure Explorers. We partner with reputable travel providers and
+                        ensure that all accommodations and excursions meet our high standards of quality and security.
+                        Your well-being is important to us, and we strive to make your journey as smooth and worry-free
+                        as possible.</p>
+                    <br>
+                    <p>Start planning your next adventure today! Browse our website for inspiration, or reach out to one
+                        of our friendly travel consultants for personalized recommendations. The world is waiting to be
+                        explored, and we're here to help you embark on the journey of a lifetime. Adventure awaits –
+                        let's make your travel dreams a reality with Adventure Explorers Travel Agency</p>
+                </div>
+            </div>
+            </div>
+        </main>
+    </main>
+</body>
+<footer>
+    <p class="end">&copy; Adventure Explorers, 2024</p>
+</footer>
+</html>
